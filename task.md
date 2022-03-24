@@ -18,3 +18,5 @@ the task is very easy, we just need to build a blog CMS system using TALL stack 
 - All Tables Must Have a search input with main key, and sortable field
 - Create just 1 widget to collect total of posts on the website
 - Use Rish Text editor for Creating post and page
+- Use Tailwind for frontend to show posts on the front of website
+- Create a Search to get the post by name
