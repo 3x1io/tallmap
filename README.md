@@ -32,3 +32,4 @@ please review these packages before starting development.
 - [Front-End](https://github.com/3x1io/tallmap/blob/main/frontend.md)
 - [API Generator](https://github.com/3x1io/tallmap/blob/main/api.md)
 - [CI/CD](https://github.com/3x1io/tallmap/blob/main/ci-cd.md)
+- [Your Task](https://github.com/3x1io/tallmap/blob/main/task.md)
