@@ -1,19 +1,11 @@
 # Environment Setup
 this steps to make our framework development environment run perfectly and without any errors, thanks for Linux and Laravel Valet for suppport that
 
-<hr>
-
-<a name="linux">
 ## Install BackBox Linux
-</a>
 
-we are like to use <a href="https://www.backbox.org/download/" target="_blank">BackBox</a> Linux it's has a lot of tools and support our environment, so form the link we support download the ISO image and put it in USB using <a href="https://rufus.ie/en/">Rufus</a> and than boot your computer into it
+we are like to use [BackBox](https://www.backbox.org/download/) Linux it's has a lot of tools and support our environment, so form the link we support download the ISO image and put it in USB using [Rufus](https://rufus.ie/en/) and than boot your computer into it
 
-<hr>
-
-<a name="packages">
 ## Install dependencies packages
-</a>
 let's start by open our terminal and update the system to the last one, and after that install some packages
 
 ```bash
@@ -30,12 +22,7 @@ after it finished reboot your computer and after that run this command
 sudo apt-get install network-manager libnss3-tools jq xsel
 ```
 
-<hr>
-
-
-<a name="php">
 ## Install PHP & it's extensions
-</a>
 ```bash
 sudo apt install php8.0-fpm
 ```
@@ -43,12 +30,8 @@ sudo apt install php8.0-fpm
 ```bash
 sudo apt install php8.0-cli php8.0-common php8.0-curl php8.0-mbstring php8.0-opcache php8.0-readline php8.0-xml php8.0-zip php8.0-mysql php8.0-gd
 ```
-<hr>
 
-
-<a name="mysql">
 ## Install MySql Server
-</a>
 
 ```bash
 sudo apt-get -y install mysql-server
@@ -77,11 +60,8 @@ mysql> FLUSH PRIVILEGES;
 ```bash
 mysql> exit;
 ```
-<hr>
 
-<a name="composer">
 ## Install Composer 
-</a>
 
 ```bash
 sudo apt install curl
@@ -90,11 +70,8 @@ sudo apt install curl
 ```bash
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 ```
-<hr>
 
-<a name="valet">
 ## Install Valet Linux+
-</a>
 
 ```bash
 composer global require genesisweb/valet-linux-plus
@@ -116,8 +93,5 @@ valet install
 ```
 
 it will ask you for a password input `12345678`
-
-<hr>
-
 
 
