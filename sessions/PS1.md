@@ -322,7 +322,7 @@ let's create a `mount()` fn to set the `$menu` item inside the component
 ```php
 public function mount()
 {
-    $this->menus = [
+    $this->menu = [
         [
             "title" => "Home",
             "url" => url('/'),
