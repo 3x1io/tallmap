@@ -106,7 +106,7 @@ yarn add tailwindcss postcss autoprefixer alpinejs
 npx tailwindcss init
 ```
 
-now let's edit `tailwind.config.js` and add config for tailwind
+now let's edit `webpack.mix.js` and add config for tailwind
 
 ```js
 mix.js("resources/js/app.js", "public/js")
